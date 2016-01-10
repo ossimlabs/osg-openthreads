@@ -13,6 +13,6 @@ Building:
 * ./scripts/build.sh
 * ./scripts/install.sh
 
-By default it will install into an install directory called install at the same level the osg and osg-openthreads was checkout.
+By default it will install into an install directory called install at the same level the osg and osg-openthreads were checkout.
 
 
