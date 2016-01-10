@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+SET(CMAKE_MODULE_PATH "$ENV{OSSIM_DEV_HOME}/osg/CMakeModules;${CMAKE_MODULE_PATH}")
+include_directories( "$ENV{OSSIM_DEV_HOME}/osg/include" )
+SET(OpenThreads_SOURCE_DIR $ENV{OSSIM_DEV_HOME}/osg)
+SET(PROJECT_SOURCE_DIR "$ENV{OSSIM_DEV_HOME}/osg")
+subdirs($ENV{OSSIM_DEV_HOME}/osg/src/OpenThreads)
